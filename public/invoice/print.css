@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.info-container, .delivery-info, .item-details {
+    border-bottom: 1px solid #231F20;
+}
+.info-container > tbody > tr > td{
+    width: 50%;
+}
+.invoice-table table {
+    border-spacing: 0;
+}
+
+.invoice-table table.table-wrapper {
+    border: 1px solid #231F20;
+    vertical-align: top;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+tr, td {
+    vertical-align: top;
+    padding: 0;
+}
+
+.invoice-table table.table-wrapper .customer-info table {
+    min-height: 450px;
+}
+
+.invoice-table table.table-wrapper .customer-info td {
+    padding: 10px;
+    border-right: 1px solid #231F20;
+    border-bottom: 1px solid #231F20;
+}
+
+.invoice-table table.table-wrapper .customer-info tr:last-child td {
+    border-bottom: 0;
+}
+
+.invoice-table table.table-wrapper .vendor-info td{
+    border-bottom: 1px solid #231F20;
+    padding: 10px;
+}
+
+.invoice-table table.table-wrapper .vendor-info tr:last-child td {
+    border-bottom: 0;
+}
+
+.invoice-table table.table-wrapper .vendor-info td.address {
+    text-align: center;
+}
+
+.delivery-info > tbody > tr > td{
+    width: 50%;
+}
+.port-info td{
+    border-right: 1px solid #231F20;
+    border-bottom: 1px solid #231F20;
+    padding: 10px;
+}
+
+.port-info tr:last-child td {
+    border-bottom: 0;
+}
+
+.freight-info td {
+    border-bottom: 1px solid #231F20;
+    padding: 10px;
+}
+
+.freight-info td td {
+    padding: 0;
+}
+
+.freight-info tr:last-child td {
+    border-bottom: 0;
+}
+
+.item-details {
+    background: url(../images/logo-watermark.svg) center 60px no-repeat;
+    background-size: 60%;
+    min-height: 560px;
+}
+
+.item-details td, 
+.item-details th{
+    border-right: 1px solid #231F20;
+    border-bottom: 1px solid #231F20;
+    padding: 10px;
+}
+
+.item-details th {
+    height: 30px;    
+}
+.item-details td:last-child,
+.item-details td:nth-last-child(2),
+.item-details th:last-child,
+.item-details th:nth-last-child(2){
+    border-right: 0;  
+}
+
+.item-details tr:last-child td {
+    border-bottom: 0;
+}
+
+.invoice-notes td {
+    border-right: 1px solid #231F20;
+    border-bottom: 1px solid #231F20;
+    padding: 10px;
+}
+
+.invoice-notes td:last-child {
+    border-right: 0;
+}
+
+.invoice-notes tr:last-child td {
+    border-bottom: 0;
+}
+
+.invoice-table table.table-wrapper .vendor-info td .contact-details td {
+    padding: 0;
+}
